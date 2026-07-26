@@ -1,0 +1,21 @@
+node_modules/
+dist/
+build/
+.next/
+*.log
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+
+# uploads (runtime data, not source)
+backend/uploads/tenders/*
+backend/uploads/applications/*
+!backend/uploads/tenders/.gitkeep
+!backend/uploads/applications/.gitkeep
+
+# telegram session (secret, generated locally)
+parser/session/*
+!parser/session/.gitkeep
+
+.DS_Store
