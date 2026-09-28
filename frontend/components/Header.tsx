@@ -23,7 +23,7 @@ export function Header() {
     <header className="border-b border-brass-light bg-paper/80 backdrop-blur sticky top-0 z-10">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
         <Link href="/tenders" className="flex items-baseline gap-2">
-          <span className="font-serif text-xl font-bold tracking-tight">НоваСтрой</span>
+          <span className="font-serif text-xl font-bold tracking-tight">Строй Инжиниринг</span>
           <span className="text-xs uppercase tracking-widest text-ink-light">портал тендеров</span>
         </Link>
 

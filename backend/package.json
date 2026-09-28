@@ -2,7 +2,7 @@
   "name": "novastroy-backend",
   "version": "1.0.0",
   "private": true,
-  "description": "НоваСтрой — API портала тендеров (Express + MySQL)",
+  "description": "Строй Инжиниринг — API портала тендеров (Express + MySQL)",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",

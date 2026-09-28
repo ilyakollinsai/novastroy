@@ -2,7 +2,7 @@
   "name": "novastroy-parser",
   "version": "1.0.0",
   "private": true,
-  "description": "Воркер парсинга публичного Telegram-канала НоваСтрой (MTProto, gramjs)",
+  "description": "Воркер парсинга публичного Telegram-канала «Строй Инжиниринг» (MTProto, gramjs)",
   "scripts": {
     "login": "tsx src/login.ts",
     "dev": "tsx watch src/index.ts",

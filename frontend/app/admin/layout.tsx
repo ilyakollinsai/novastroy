@@ -28,7 +28,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   return (
     <div>
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-3xl font-bold">Админка «НоваСтрой»</h1>
+        <h1 className="text-3xl font-bold">Админка «Строй Инжиниринг»</h1>
         <nav className="flex gap-1">
           <Link href="/admin" className={tabClass('/admin')}>
             Тендеры

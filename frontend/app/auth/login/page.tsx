@@ -32,7 +32,7 @@ export default function LoginPage() {
     <div className="max-w-md mx-auto">
       <div className="doc-card p-8">
         <h1 className="text-2xl font-bold mb-1">Вход в личный кабинет</h1>
-        <p className="text-sm text-ink-light mb-6">Портал тендеров «НоваСтрой»</p>
+        <p className="text-sm text-ink-light mb-6">Портал тендеров «Строй Инжиниринг»</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>

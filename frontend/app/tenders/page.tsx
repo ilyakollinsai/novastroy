@@ -52,7 +52,7 @@ export default function TendersPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">Реестр тендеров</h1>
         <p className="text-ink-light mt-1">
-          Актуальные закупки компании «НоваСтрой». Подайте заявку прямо на странице тендера.
+          Актуальные закупки компании «Строй Инжиниринг». Подайте заявку прямо на странице тендера.
         </p>
       </div>
 

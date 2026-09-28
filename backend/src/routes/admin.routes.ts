@@ -24,7 +24,7 @@ function normalizeRequirements(value: unknown): string | null {
 
 async function assignPublicCode(conn: any, tenderId: number) {
   const year = new Date().getFullYear();
-  const code = `NS-${year}-${String(tenderId).padStart(4, '0')}`;
+  const code = `SI-${year}-${String(tenderId).padStart(4, '0')}`;
   await conn.query('UPDATE tenders SET public_code = ? WHERE id = ?', [code, tenderId]);
   return code;
 }
